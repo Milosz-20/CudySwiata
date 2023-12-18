@@ -1,0 +1,142 @@
+body {
+    background-color: #1d211f;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-size: 1.5rem;
+}
+
+:root {
+    --color1: #9addd7;
+    --color2: #13b9cf;
+    --color3: #ad6d9d;
+    --color4: #1d211f;
+    --color5: #232725;
+}
+
+#section9 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #13b9cf;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ad6d9d;
+}
+
+#back {
+    right: 0;
+}
+
+.art2 {
+    width: 37.5rem;
+    height: 25rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+#box2Art1 {
+    background-color: var(--color2);
+}
+
+#box2Art1cut {
+    background-color: var(--color4);
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#box2Art2 {
+    background-color: var(--color1);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#box2Art2cut {
+    width: 85%;
+    height: 75%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--color4);
+}
+
+#box2Art3 {
+    background-color: var(--color2);
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+#box2Art4 {
+    background-color: var(--color3);
+    border-bottom-left-radius: 100%;
+
+    border-top-right-radius: 100%;
+    grid-area: 2 / 2 / 3 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box2Art4cut {
+    background-color: var(--color4);
+    border-radius: 50%;
+    width: 50%;
+    height: 30%;
+    rotate: 45deg;
+}
+
+#box2Art5 {
+    background-color: var(--color2);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+#box2Art5cut {
+    background-color: var(--color4);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+
